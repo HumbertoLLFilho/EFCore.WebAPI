@@ -1,0 +1,17 @@
+fazer o banco de dados:
+
+Add-Migration initial
+
+update-database
+
+
+
+tirar a database:
+
+drop-database
+
+remove-migration
+
+
+
+gerar script:
