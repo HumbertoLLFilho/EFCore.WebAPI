@@ -5,7 +5,7 @@
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/_._": {}
+          "lib/netstandard2.0/Humanizer.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {}
@@ -1498,6 +1498,32 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "EFCore.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/EFCore.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EFCore.Dominio.dll": {}
+        }
+      },
+      "EFCore.repo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "EFCore.Dominio": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.0",
+          "Microsoft.EntityFrameworkCore.Design": "5.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EFCore.repo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EFCore.repo.dll": {}
         }
       }
     }
@@ -5571,10 +5597,22 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "EFCore.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../EFCore.Dominio/EFCore.Dominio.csproj",
+      "msbuildProject": "../EFCore.Dominio/EFCore.Dominio.csproj"
+    },
+    "EFCore.repo/1.0.0": {
+      "type": "project",
+      "path": "../EFCore.repo/EFCore.repo.csproj",
+      "msbuildProject": "../EFCore.repo/EFCore.repo.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "EFCore.Dominio >= 1.0.0",
+      "EFCore.repo >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.0",
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 5.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.0",
@@ -5610,7 +5648,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Meus arquivos\\Trabalho\\treinamento\\EFCore.WebAPI\\EFCore.Dominio\\EFCore.Dominio.csproj": {
+              "projectPath": "D:\\Meus arquivos\\Trabalho\\treinamento\\EFCore.WebAPI\\EFCore.Dominio\\EFCore.Dominio.csproj"
+            },
+            "D:\\Meus arquivos\\Trabalho\\treinamento\\EFCore.WebAPI\\EFCore.repo\\EFCore.repo.csproj": {
+              "projectPath": "D:\\Meus arquivos\\Trabalho\\treinamento\\EFCore.WebAPI\\EFCore.repo\\EFCore.repo.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

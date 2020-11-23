@@ -21,7 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\EFCore.Dominio\EFCore.Dominio.csproj" />
+    <ProjectReference Include="..\EFCore.repo\EFCore.repo.csproj" />
   </ItemGroup>
 
 </Project>

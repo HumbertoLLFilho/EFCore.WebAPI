@@ -1,0 +1,9 @@
+D:\Meus arquivos\Trabalho\treinamento\EFCore.WebAPI\EFCore.Dominio\bin\Debug\netstandard2.0\EFCore.Dominio.deps.json
+D:\Meus arquivos\Trabalho\treinamento\EFCore.WebAPI\EFCore.Dominio\bin\Debug\netstandard2.0\EFCore.Dominio.dll
+D:\Meus arquivos\Trabalho\treinamento\EFCore.WebAPI\EFCore.Dominio\bin\Debug\netstandard2.0\EFCore.Dominio.pdb
+D:\Meus arquivos\Trabalho\treinamento\EFCore.WebAPI\EFCore.Dominio\obj\Debug\netstandard2.0\EFCore.Dominio.AssemblyInfoInputs.cache
+D:\Meus arquivos\Trabalho\treinamento\EFCore.WebAPI\EFCore.Dominio\obj\Debug\netstandard2.0\EFCore.Dominio.AssemblyInfo.cs
+D:\Meus arquivos\Trabalho\treinamento\EFCore.WebAPI\EFCore.Dominio\obj\Debug\netstandard2.0\EFCore.Dominio.csproj.CoreCompileInputs.cache
+D:\Meus arquivos\Trabalho\treinamento\EFCore.WebAPI\EFCore.Dominio\obj\Debug\netstandard2.0\EFCore.Dominio.dll
+D:\Meus arquivos\Trabalho\treinamento\EFCore.WebAPI\EFCore.Dominio\obj\Debug\netstandard2.0\EFCore.Dominio.pdb
+D:\Meus arquivos\Trabalho\treinamento\EFCore.WebAPI\EFCore.Dominio\obj\Debug\netstandard2.0\EFCore.Dominio.csprojAssemblyReference.cache

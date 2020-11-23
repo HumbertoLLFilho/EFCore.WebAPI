@@ -1,6 +1,6 @@
 fazer o banco de dados:
 
-Add-Migration initial
+Add-Migration "Nome da versao"
 
 update-database
 
@@ -15,3 +15,10 @@ remove-migration
 
 
 gerar script:
+
+script-migration
+
+
+instalar o design caso necessario:
+
+install-package microsoft.entityframeworkcore.design
