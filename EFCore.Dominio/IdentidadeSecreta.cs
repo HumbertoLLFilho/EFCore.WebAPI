@@ -9,7 +9,7 @@ namespace EFCore.Dominio
     {
         //criando uma identidade secreta
         public int Id { get; set; }
-        public int NomeReal { get; set; }
+        public string NomeReal { get; set; }
 
         //mostrando de qual heroi ela pertence
         public int HeroiId { get; set; }
